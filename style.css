@@ -1,0 +1,83 @@
+/* General page settings */
+* {
+    margin: 0; /* Removes default margins */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Makes element sizes easier to manage */
+}
+
+/* Body */
+body {
+    background-color: #f4f4f4; /* Sets a light gray background */
+    font-family: Arial, sans-serif; /* Uses a clean font */
+    color: #333333; /* Sets the main text color */
+}
+
+/* Hero section */
+.hero {
+    min-height: 100vh; /* Makes the section fill the screen height */
+    display: flex; /* Enables flexible positioning */
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers elements horizontally */
+    justify-content: center; /* Centers elements vertically */
+    text-align: center; /* Centers the text */
+    padding: 20px; /* Adds space around the content */
+}
+
+/* Chair image container */
+.chair-image {
+    width: 120px; /* Sets the image container width */
+    height: 120px; /* Sets the image container height */
+    background-color: #8e8e8e; /* Creates a white circular background */
+    border-radius: 50%; /* Makes the container circular */
+    margin-bottom: 10px; /* Adds space below the image */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    display: flex; /* Centers the image inside the circle */
+    align-items: center; /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+}
+
+/* Chair image */
+.chair-image img {
+    width: 140px; /* Sets the image width */
+    height: 140px; /* Sets the image height */
+    object-fit: contain; /* Keeps the image proportions */
+}
+
+/* Main heading */
+h1 {
+    font-size: 26px; /* Sets the title size */
+    font-weight: bold; /* Makes the title bold */
+    margin-bottom: 8px; /* Adds space below the title */
+}
+
+/* Subtitle */
+h2 {
+    font-size: 14px; /* Sets the subtitle size */
+    color: #9b432c; /* Adds a reddish earthy tone */
+    margin-bottom: 15px; /* Adds space below the subtitle */
+}
+
+/* Description */
+p {
+    max-width: 340px; /* Limits the paragraph width */
+    font-size: 10px; /* Sets a smaller text size */
+    line-height: 1.5; /* Adds space between text lines */
+    color: #666666; /* Uses a softer gray text color */
+    margin-bottom: 20px; /* Adds space before the button */
+}
+
+/* Button */
+.button {
+    background-color: #555555; /* Sets the dark gray button color */
+    color: #ffffff; /* Makes the text white */
+    text-decoration: none; /* Removes the underline */
+    padding: 8px 13px; /* Adds space inside the button */
+    border-radius: 3px; /* Slightly rounds the corners */
+    font-size: 14px; /* Sets the button text size */
+    font-weight: bold; /* Makes the button text bold */
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: #333333; /* Darkens the button when hovered */
+}
